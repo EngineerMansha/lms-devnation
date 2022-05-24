@@ -1,0 +1,14 @@
+.rec-wrapper{
+
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+.rec-wrapper h4{
+    margin-bottom: 10px;
+}
+.rec-wrapper p{
+font-size: 14px;
+font-weight: 300;
+margin-bottom: 20px;
+}

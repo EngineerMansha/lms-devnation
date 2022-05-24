@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+body {
+  background-color: #eeeeee;
+  /* height: 1000px; */
+  overflow-x: hidden;
+}
+.app {
+  height: fit-content;
+  position: relative;
+  /* border: 5px solid black; */
+}
+.heading {
+  width: 100%;
+  height: 65px;
+  transform: translateY(65px);
+
+  /* border: 1px solid black;
+  background-color: #111827; */
+}
+.heading .para {
+  width: 90%;
+  height: 65px;
+  margin: auto;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.nav-bg-blr {
+  height: 300px;
+  background-color: #111827;
+  position: relative;
+  transform: translateY(-65px);
+  z-index: -1;
+}
+
+/* navbar media query */
+@media screen and (max-width: 900px){
+  .app .n-list ul,
+  .n-right a img{
+    display: none;
+  }
+  .app .n-right .hamburger{
+    display: block;
+  }
+  /* suppose  */
+  .app .n-list ul{
+    width: 100%;
+    /* display: block; */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 16px;
+    padding: 20px 0;
+    background-color: #111827;
+    z-index: 1000;  
+    border-bottom: 1px solid rgb(134, 134, 134);
+  }
+  .app .n-list ul li{
+    width: fit-content;
+    margin-left: 40px;
+  }
+  .app .n-list ul li:hover{
+    background-color: #11182700;
+    color: #ffffff;
+  }
+  .n-right a img{
+    /* display: block; */
+    position: absolute;
+    top:50px;
+    
+  }
+
+ 
+}
+@media screen and (max-width: 704px) {
+
+
+  .heading .para {
+    padding: 50px 0;
+  }
+  .app .main-wrapper {
+    transform: translateY(-200px);
+  }
+  .app .stats-wrapper {
+    width: 50%;
+  }
+  .app .footer-wrapper {
+    bottom: -120px;
+    height: 180px;
+  }
+  .app .footer {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    align-items: center;
+    /* border:  1px solid black; */
+  }
+  .app .footer .footer-left {
+    margin-top: 30px;
+  }
+  .app .footer-right > i {
+    /* border:  1px solid black; */
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .heading .para {
+    padding: 70px 0;
+  }
+  .app .main-nav-wrapper :nth-child(n) {
+    font-size: 12px;
+  }
+  .app .main-wrapper {
+    transform: translateY(-200px);
+  }
+  .app .stats-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .app .footer-wrapper {
+    bottom: -180px;
+  }
+  .app .footer .footer-left {
+    font-size: 14px;
+  }
+  .app .table-wrapper {
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,92 @@
+.accordion {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  /* border: 2px solid rgb(5, 5, 5); */
+}
+.main-content-box,
+.accordion-title {
+  border: 1px solid rgb(230, 229, 229);
+}
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e7f1ff;
+  color: #6366f1;
+  padding: 10px 15px;
+}
+
+.accordion-title:hover {
+  cursor: pointer;
+  background-color: #e7f1ffa1;
+}
+.main-content-box {
+  font-size: 14px;
+}
+
+.accordion-title .title {
+  font-size: 14px;
+}
+.accordion-content {
+  margin: 0 0 5px 15px;
+  font-weight: normal;
+}
+
+.accordion-content i {
+  margin-right: 5px;
+  color: #6366f1;
+}
+.accordion-content span {
+  font-weight: 300;
+}
+.accordion-item {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+
+.du-content {
+  font-weight: 500;
+  margin: 15px;
+}
+
+
+.pulse {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px;
+  display: inline-block;
+}
+
+.pulse::after,
+.pulse::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: #00b478;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.pulse::after {
+  background: #2b81af;
+  animation: fade 2s infinite linear;
+}
+.pulse::before {
+  animation: fade 2s infinite linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+}

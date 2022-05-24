@@ -1,0 +1,66 @@
+
+.student-cards {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #F3FBF9; */
+    padding: 10px 0;
+    height: 50px;
+    /* margin-bottom: 5px; */
+    
+
+}
+
+/* left side  */
+.student-cards .student {
+    /* border: 1px solid rgb(79, 47, 196);  */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student div:nth-child(1){
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-left: 15px;
+    /* border: 1px solid rgb(79, 47, 196);  */
+
+
+}
+
+.student-cards .student .name {
+    font-weight: 500;
+    font-size: 14px;
+    /* gray/700 */
+    color: #374151;
+    /* border: 1px solid rgb(79, 47, 196); */
+    width: 200px; 
+
+    /* margin-left: -15px; */
+}
+.name > span{
+   font-family:'fontAwesome';
+   font-size: 16px;
+   /* gray/700 */
+   color: rgba(0, 0, 0, 0.3);
+   margin-left: 5px;
+
+}
+.student-cards .student i {
+    font-size: 16px;
+    /* gray/700 */
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+}
+
+/* right side */
+.student-cards .points {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    color: #10B981;
+    margin-right: 20px;
+}

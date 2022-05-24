@@ -1,0 +1,41 @@
+.table-wrapper {
+  width: 100%;
+  margin: auto;
+}
+table {
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.th {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* border: 1px solid black; */
+  color: #7c7c7c;
+  /* background-color: #F9FAFB; */
+  }
+tr th,
+td {
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 12px;
+
+}
+tr td{
+  font-weight: 300;
+  font-size: 14px;
+  color: #7c7c7c;
+}
+
+tr:nth-child(odd) {
+  background-color: #F9FAFB;
+}
+
+.v-title{
+  color: #4144ee ;
+  /* font-weight: 500; */
+  text-decoration: none;
+}
+tr .w-link{
+  text-align: right;
+}

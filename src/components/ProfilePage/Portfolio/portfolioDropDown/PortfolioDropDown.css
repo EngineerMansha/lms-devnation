@@ -1,0 +1,79 @@
+
+/* add-button-dropDown */
+.add-button-dropDown {
+    width: 266px;
+    height: 160px;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    /* border: 1px solid black; */
+    z-index: 2;
+
+
+
+}
+
+/* links-wrapper */
+.links-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.links-wrapper:hover {
+    background: #dad8d8d0;
+    cursor: pointer;
+
+}
+
+.links-wrapper .link-icon {
+    font-family: 'fontAwesome';
+    margin-top: 30px;
+
+
+}
+
+.links-wrapper .media-icon {
+    margin-top: 20px;
+    font-family: 'fontAwesome';
+}
+
+.links-wrapper .link,
+.links-wrapper .media {
+    width: 16px;
+    height: 16px;
+    width: 200px;
+    /* padding-top: 15px; */
+}
+
+.links-wrapper .link {
+    margin-top: 20px;
+}
+
+.links-wrapper .link span:nth-child(1),
+.links-wrapper .media span:nth-child(1) {
+    font-weight: 700;
+    font-size: 14px;
+
+
+
+}
+
+/* 2nd child is br so it will be 3rd child to target  */
+.links-wrapper .link span:nth-child(3),
+.links-wrapper .media span:nth-child(3) {
+    font-weight: 500;
+    font-size: 12px;
+    color: #6B7280;
+}
+.menu-wrapper-plus{
+    border: 3px solid greenyellow;
+}

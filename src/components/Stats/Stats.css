@@ -1,0 +1,31 @@
+.stats-wrapper{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+  /* border: 1px solid black; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.stat-icon{
+    color: #6366F1;
+    font-size: 55px;
+}
+
+.stat-data p{
+    font-size: 14px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.61);
+    margin-left: 20px;
+    font-weight: 300;
+}
+.stat-data p span{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.918);
+    font-weight: 500;
+
+}

@@ -1,0 +1,23 @@
+
+.main-wrapper {
+  width: 90%;
+  height: fit-content;
+  border-radius: 10px;
+  margin: auto;
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px; 
+  z-index: 10;
+  transform: translateY(-230px);
+  overflow-x: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* display: none; */
+}
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+  /* margin-left: 10px; */
+}
+.main-wrapper .stats {
+  margin-top: 0;
+}
